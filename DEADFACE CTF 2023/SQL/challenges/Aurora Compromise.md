@@ -6,7 +6,7 @@ DEADFACE has taken responsibility for a partial database hack on a pharmacy tied
 
 We’ve managed to get a hold of the hacked data. Provide the first and last name of the patient that lives on a street called Hansons Terrace.
 
-Submit the flag as: flag{First Last}.
+Submit the flag as: ```flag{First Last}```.
 
 ## Solution
 

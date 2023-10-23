@@ -3,9 +3,9 @@
 ## Challenge Description
 Based on Ghost Town conversations, DEADFACE is going to try to compromise an Aurora Health pharmacy to get their hands on STAR. Turbo Tactical wants to provide security personnel at Aurora with information about which facility, aisle, and bin contains the most STAR, since it is likely what DEADFACE will target.
 
-Provide the facility_id, aisle, and bin where the most STAR is kept in the city DEADFACE is targeting. Submit the flag as flag{facility_id-aisle-bin}.
+Provide the facility_id, aisle, and bin where the most STAR is kept in the city DEADFACE is targeting. Submit the flag as ```flag{facility_id-aisle-bin}```.
 
-Example: flag{123-4-8}
+Example: ```flag{123-4-8}```
 
 Use the database dump from ***Aurora Compromise***.
 

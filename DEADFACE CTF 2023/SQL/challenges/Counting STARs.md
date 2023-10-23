@@ -3,9 +3,9 @@
 ## Challenge Description
 We know DEADFACE is trying to get their hands on STAR, so it makes sense that they will try to target the doctor who prescribes the most STAR from the Aurora database. Provide the first and last name and the type of doctor (position name) that prescribed the most STAR from the database.
 
-Submit the flag as flag{FirstName LastName Position}.
+Submit the flag as ```flag{FirstName LastName Position}```.
 
-For example: flag{John Doe Podiatrist}
+For example: ```flag{John Doe Podiatrist}```
 
 Use the database dump from ***Aurora Compromise***.
 

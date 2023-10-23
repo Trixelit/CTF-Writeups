@@ -4,7 +4,7 @@
 
 DEADFACE is on the brink of selling a patient's credit card details from the Aurora database to a dark web buyer. Investigate Ghost Town for potential leads on the victim's identity.
 
-Submit the flag as flag{Firstname Lastname}. Example: flag{John Smith}.
+Submit the flag as ```flag{Firstname Lastname}```. Example: ```flag{John Smith}```.
 
 Use the database dump from ***Aurora Compromise***.
 
@@ -26,7 +26,7 @@ INTO OUTFILE '/tmp/data.txt';
 CONCAT() will concatenate the fields selected, in the order that they are provided.  
 You can use either ```billing.patient_id``` or ```patients.patient_id``` for this, however if you don't specify either the query will fail due to the ```patient_id``` field being ambiguous.
 
-'INNER JOIN' will join the ```billing``` and ```patients``` tables together, and will only return rows where the fields declared after the 'ON' keyword are equal.
+'INNER JOIN' joins the ```billing``` and ```patients``` tables together, and will only return rows where the fields declared after the 'ON' keyword are equal.
 
 'INTO OUTFILE' will output the data into the specified file, instead of printing the result to the table.
 

@@ -1,6 +1,6 @@
 # DEADFACE CTF 2023 SQL Challenges
-
-These write-ups are my personal solutions, and there could be several solutions to the same challenge.
+These are the writeups for the SQL challenges I completed.  
+These writeups are my personal solutions, and there could be several solutions to the same challenge.
 
 [Aurora Compromise (10)](./challenges/Aurora%20Compromise.md)  
 [Foreign Keys (10)](./challenges/Foreign%20Keys.md)  

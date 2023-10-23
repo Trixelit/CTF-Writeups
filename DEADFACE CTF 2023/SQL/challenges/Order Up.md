@@ -3,7 +3,7 @@
 ## Challenge Description
 Dr. Flegg prescribed Automeda to a patient in June 2023. What is the order number for this prescription?
 
-Submit the flag as flag{order_num}.
+Submit the flag as ```flag{order_num}```.
 
 Use the database dump from ***Aurora Compromise***.
 

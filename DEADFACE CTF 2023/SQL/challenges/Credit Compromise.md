@@ -3,7 +3,7 @@
 ## Challenge Description
 How many credit cards were exposed in the Aurora database hack?
 
-Submit the flag as flag{#}.
+Submit the flag as ```flag{#}```.
 
 Use the database dump from ***Aurora Compromise***.
 
