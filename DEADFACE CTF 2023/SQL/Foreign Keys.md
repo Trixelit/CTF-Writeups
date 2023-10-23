@@ -1,3 +1,5 @@
+# Foreign Keys (10)
+
 ## Challenge Description
 How many foreign keys are described in the design of the inventory table?
 

@@ -1,3 +1,5 @@
+# Aurora Compromise (10)
+
 ## Challenge Description  
 
 DEADFACE has taken responsibility for a partial database hack on a pharmacy tied to Aurora Pharmaceuticals. The hacked data consists of patient data, staff data, and information on drugs and prescriptions.
@@ -21,4 +23,4 @@ Will result in an output of
 +------------+-----------+
 ```
 
-This means our flag is ```flag{Sandor Beyer}```.
+Our flag is ```flag{Sandor Beyer}```.
