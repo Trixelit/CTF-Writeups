@@ -14,4 +14,4 @@ SELECT DISTINCT card_num FROM billing;
 ```
 Which results in ```10391 rows in set```.
 
-```flag{10391}```
+Our flag is ```flag{10391}```.

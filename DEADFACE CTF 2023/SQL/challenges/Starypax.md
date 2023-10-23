@@ -14,7 +14,10 @@ Several SQL Queries are required for this challenge:
 ```sql
 SELECT drug_id FROM drugs WHERE drug_name = 'Starypax' -- Drug ID 26.
 
-SELECT * FROM prescriptions WHERE drug_id = 26 AND expiration > '2023-10-20' ORDER BY expiration; -- Results in 7 entries, the first expiry being patient 10042's prescription.
+SELECT * FROM prescriptions WHERE drug_id = 26 
+AND expiration > '2023-10-20' 
+ORDER BY expiration; 
+-- Results in 7 entries, the first expiry being patient 10042's prescription.
 
 SELECT first_name,last_name FROM patients WHERE patient_id = 10042; -- Renae Allum
 ```

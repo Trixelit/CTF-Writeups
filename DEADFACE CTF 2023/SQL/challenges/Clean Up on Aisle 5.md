@@ -12,7 +12,7 @@ Use the database dump from ***Aurora Compromise***.
 ## Solution
 
 There is a post on GhostTown that says the city that DEADFACE is targeting:
-![The post on GhostTown](./files/images/cao5.png)
+![The post on GhostTown](../files/images/cao5.png)
 
 To get the quantity of STAR stored in every facility in Phoenix we can run this query:
 
@@ -20,7 +20,8 @@ To get the quantity of STAR stored in every facility in Phoenix we can run this 
 SELECT * FROM inventory WHERE drug_id = 26 AND facility_id IN(SELECT facility_id FROM facilities WHERE city = "Phoenix") ORDER BY qty DESC;
 ```
 
-This will return this data:
+Which will return this data:
+
 ```sql
 +--------+---------+-------------+---------+------+
 | inv_id | drug_id | facility_id | locator | qty  |

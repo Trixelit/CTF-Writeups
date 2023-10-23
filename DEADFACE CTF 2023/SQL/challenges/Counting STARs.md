@@ -13,8 +13,14 @@ Use the database dump from ***Aurora Compromise***.
 
 To count the number of times each doctor prescribed STAR, we can run this query:
 ```sql
-SELECT doctor_id,drug_id,COUNT(doctor_id) AS 'value_occurence' FROM prescriptions WHERE drug_id = 26 GROUP BY doctor_id ORDER BY value_occurence DESC LIMIT 1;
+SELECT doctor_id,drug_id,COUNT(doctor_id) AS 'value_occurence' 
+FROM prescriptions WHERE drug_id = 26 
+GROUP BY doctor_id 
+ORDER BY value_occurence DESC 
+LIMIT 1;
 ```
+We already know that STAR's drug_id is 26, from completing 'Starypax'.
+
 This query results in:
 ```sql
 +-----------+---------+-----------------+
@@ -24,12 +30,14 @@ This query results in:
 +-----------+---------+-----------------+
 ```
 This shows that doctor_id 1957 prescribed STAR on 8 separate occasions.
-To get the rest of this doctor's information we can run:
+To get the rest of this doctor's information we can run the following queries:
 ```sql
 SELECT first_name,last_name FROM staff WHERE staff_id = 1957;
 -- The doctor's name is Alisa MacUchadair.
+
 SELECT * FROM positions_assigned WHERE staff_id = 1957;
 -- Position ID 18
+
 SELECT * FROM positions WHERE position_id = 18;
 -- Dermatologist
 ```
